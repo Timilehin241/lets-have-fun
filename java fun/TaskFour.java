@@ -1,0 +1,44 @@
+
+import java.util.Scanner;
+public class TaskFour{
+  public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+     
+   System.out.print("Enter first score: ");
+     int score1 = input.nextInt();
+     
+   System.out.print("Enter second score: ");
+     int score2 = input.nextInt();
+     
+   System.out.print("Enter third score: ");
+     int score3 = input.nextInt();
+     
+     System.out.print("Enter fourth score: ");
+     int score4 = input.nextInt();
+     
+     System.out.print("Enter fifth score: ");
+     int score5 = input.nextInt();
+     
+     System.out.print("Enter sixth score: ");
+     int score6 = input.nextInt();
+     
+     System.out.print("Enter seventh score: ");
+     int score7 = input.nextInt();
+     
+     System.out.print("Enter eighth score: ");
+     int score8 = input.nextInt();
+     
+     System.out.print("Enter ninth score: ");
+     int score9 = input.nextInt();
+     
+     System.out.print("Enter tenth score: ");
+     int score10 = input.nextInt();
+     
+     int sum = score2 + score4 + score6 + score8 + score10;
+     
+    System.out.println( "The sum score is: " + sum );
+    
+    }
+
+}
+    
